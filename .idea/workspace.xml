@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd34b724-e2b2-4181-994b-95b56f3bcc28" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/city-graz.html" afterPath="$PROJECT_DIR$/assets/cities/city-graz.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/city-vienna.html" afterPath="$PROJECT_DIR$/assets/cities/city-vienna.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/city-graz.pug" afterPath="$PROJECT_DIR$/_includes/city-graz.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/city-vienna.pug" afterPath="$PROJECT_DIR$/_includes/city-vienna.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/script-min.js" afterPath="$PROJECT_DIR$/assets/js/script-min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/script.js" afterPath="$PROJECT_DIR$/assets/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit3" afterPath="$PROJECT_DIR$/config.codekit3" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,8 +65,8 @@
       <file leaf-file-name="city-vienna.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/city-vienna.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="608">
+              <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -86,28 +85,28 @@
       <file leaf-file-name="home.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/home.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="501">
+              <caret line="43" column="24" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="43" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="city-graz.pug" pinned="false" current-in-tab="false">
+      <file leaf-file-name="city-graz.pug" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/city-graz.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+            <state relative-caret-position="591">
+              <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -135,12 +134,12 @@
         <option value="$PROJECT_DIR$/_includes/main.pug" />
         <option value="$PROJECT_DIR$/index.pug" />
         <option value="$PROJECT_DIR$/assets/css/1-base/main.sass" />
-        <option value="$PROJECT_DIR$/_includes/city-graz.pug" />
         <option value="$PROJECT_DIR$/assets/css/main.scss" />
         <option value="$PROJECT_DIR$/assets/css/3-sections/home.sass" />
-        <option value="$PROJECT_DIR$/_includes/city-vienna.pug" />
         <option value="$PROJECT_DIR$/_includes/home.pug" />
         <option value="$PROJECT_DIR$/assets/js/script.js" />
+        <option value="$PROJECT_DIR$/_includes/city-vienna.pug" />
+        <option value="$PROJECT_DIR$/_includes/city-graz.pug" />
       </list>
     </option>
   </component>
@@ -445,12 +444,12 @@
       <option name="presentableId" value="Default" />
       <updated>1498736136801</updated>
       <workItem from="1498736138984" duration="179000" />
-      <workItem from="1501614226198" duration="8313000" />
+      <workItem from="1501614226198" duration="8556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8492000" />
+    <option name="totallyTimeSpent" value="8735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -561,14 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/city-graz.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/3-sections/home.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -585,26 +576,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/city-vienna.pug">
+    <entry file="file://$PROJECT_DIR$/assets/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="189">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/home.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="501">
+          <caret line="43" column="24" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="43" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/script.js">
+    <entry file="file://$PROJECT_DIR$/_includes/city-vienna.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="608">
+          <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/city-graz.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding />
         </state>
       </provider>

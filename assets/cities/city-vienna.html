@@ -1,28 +1,40 @@
 
-<h2>Vienna</h2>
-<table-wrapper>
-  <table class="table table-hover">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Name</th>
-        <th>Adresse</th>
-        <th>Phone Number</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>Hallo</td>
-        <td>Hullu</td>
-        <td>123456789</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>Hihi</td>
-        <td>Nunu</td>
-        <td>789456123</td>
-      </tr>
-    </tbody>
-  </table>
-</table-wrapper>
+<h2>Vienna<a href="/assets/img/card-vienna.pdf">Show printable City Information Card</a><br/>
+  <input class="form-control" type="text" onkeyup="filterDb()" placeholder="Search database..." id="input-search"/>
+  <table-wrapper>
+    <table class="table table-hover" id="data-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Adresse</th>
+          <th>Phone Number</th>
+        </tr>
+        <tr>
+          <th></th>
+          <th>
+            <input class="form-control" type="text" onkeyup="filterDb(1)" placeholder="Search name..." id="input-1"/>
+          </th>
+          <th>
+            <input class="form-control" type="text" onkeyup="filterDb(2)" placeholder="Search adress..." id="input-2"/>
+          </th>
+          <th>Phone Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Haus Miriam</td>
+          <td>Schopenhauerstraße 10</td>
+          <td>123456789</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Hihi</td>
+          <td>Nunu</td>
+          <td>789456123</td>
+        </tr>
+      </tbody>
+    </table>
+  </table-wrapper>
+</h2>

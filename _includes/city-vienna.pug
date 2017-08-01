@@ -1,21 +1,33 @@
 h2 Vienna
+  a(href='/assets/img/card-vienna.pdf') Show printable City Information Card
+  br
+  input(type='text', onkeyup='filterDb()', placeholder='Search database...')#input-search.form-control
 
-table-wrapper
-  table.table.table-hover
-    thead
-      tr
-        th #
-        th Name
-        th Adresse
-        th Phone Number
-    tbody
-      tr
-        td 1
-        td Hallo
-        td Hullu
-        td 123456789
-      tr
-        td 2
-        td Hihi
-        td Nunu
-        td 789456123
+  table-wrapper
+    table#data-table.table.table-hover
+      thead
+        tr
+          th #
+          th Name
+          th Adresse
+          th Phone Number
+        tr
+          th
+          th
+            input(type='text', onkeyup='filterDb(1)', placeholder='Search name...')#input-1.form-control
+
+          th
+            input(type='text', onkeyup='filterDb(2)', placeholder='Search adress...')#input-2.form-control
+
+          th Phone Number
+      tbody
+        tr
+          td 1
+          td Haus Miriam
+          td Schopenhauerstraße 10
+          td 123456789
+        tr
+          td 2
+          td Hihi
+          td Nunu
+          td 789456123

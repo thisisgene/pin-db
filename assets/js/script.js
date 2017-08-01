@@ -8,7 +8,7 @@ function loadCity() {
   var city = $( ".select-city" ).val();
 
   if (city !== "") {
-    var url = "./_includes/city-" + city + ".html";
+    var url = "./cities/city-" + city + ".html";
     getCity(url);
   }
 

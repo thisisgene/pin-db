@@ -39,18 +39,12 @@
 		"oAP": "\/.idea\/workspace.xml",
 		"oF": 0
 		},
-	"\/_includes\/city-graz.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/city-graz.html",
-		"oF": 0
-		},
 	"\/_includes\/city-graz.pug": {
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/_includes\/city-graz.html",
-		"oF": 0,
+		"oAP": "\/assets\/cities\/city-graz.html",
+		"oF": 2,
 		"oS": 0
 		},
 	"\/_includes\/city-vienna.html": {
@@ -63,8 +57,8 @@
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/_includes\/city-vienna.html",
-		"oF": 0,
+		"oAP": "\/assets\/cities\/city-vienna.html",
+		"oF": 2,
 		"oS": 0
 		},
 	"\/_includes\/head.pug": {
@@ -82,6 +76,18 @@
 		"oAP": "\/_includes\/home.html",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/assets\/cities\/city-graz.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/cities\/city-graz.html",
+		"oF": 0
+		},
+	"\/assets\/cities\/city-vienna.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/cities\/city-vienna.html",
+		"oF": 0
 		},
 	"\/assets\/css\/0-tools\/_bootstrap-compass.scss": {
 		"aP": 0,

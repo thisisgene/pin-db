@@ -1,0 +1,1 @@
+function getCity(t){$.get(t,function(t){$("main").html(t)})}function loadCity(){var t=$(".select-city").val();if(""!==t){getCity("./_includes/city-"+t+".html")}}
